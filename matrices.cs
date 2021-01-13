@@ -17,7 +17,6 @@ class Solution {
     // Complete the arrayManipulation function below.
     static long arrayManipulation(int n, int[][] queries) {
         long[] arr = new long[n];
-        
         //for (int i=0; i<n; i++)
         //arr[i]=0;
         int tam= queries.Count();
@@ -44,9 +43,7 @@ class Solution {
         string[] nm = Console.ReadLine().Split(' ');
 
         int n = Convert.ToInt32(nm[0]);
-
         int m = Convert.ToInt32(nm[1]);
-
         int[][] queries = new int[m][];
 
         for (int i = 0; i < m; i++) {
